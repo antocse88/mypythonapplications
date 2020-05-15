@@ -1,0 +1,104 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <style type="text/css">
+     body {
+            background-image: url({% static "images/Background.jpg" %});
+            background-size: cover;
+          }
+     .img-container {
+        text-align: center;
+      }
+      h2 {text-align: center;}
+      p {text-align: center;}
+
+    </style>
+    <!-- As a link -->
+<body>
+<audio controls>
+    <source src="{% static 'Audio/song.mp3' %}" type="audio/mpeg">
+</audio>
+<div class="container">
+    <h1><img src="{% static 'images/roro2.jpg' %}" alt="roro"
+             width="64" height="64" align="middle">My Sweet Family !!!!!</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="img-container">
+                    <img src="{% static 'images/roro.jpg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>This is me Rochelle Alex</b></h2>
+                    <p>Hi see how cute I am, my Mumma family call me as Roro,</p>
+                    <p>my Pappa family call me as Manikutti</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-container">
+                    <img src="{% static 'images/Muma.jpeg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>Mumma</b></h2>
+                    <p>This is my Mumma(Mithul Johnson), see how pretty she is, </p>
+                    <p>I love you Mumma !!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-container">
+                    <img src="{% static 'images/Alex.jpg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>Pappa</b></h2>
+                    <p>This is my Pappa(Alex John), he is an adventurous guys, </p>
+                    <p>You are my Hero Pappa !!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-container">
+                    <img src="{% static 'images/Appapan.jpg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>Appapan & Ammachi</b></h2>
+                    <p>This is my Appapan(Johny), Ammachi(Lucy) </p>
+                    <p>I miss them a lot !!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-container">
+                    <img src="{% static 'images/ammachi.jpeg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>Velliappachan & Ammachi</b></h2>
+                    <p>This is my Velliappachan(Johnson), Ammachi(Sherly) </p>
+                    <p>I love them a lot !!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-container">
+                    <img src="{% static 'images/Ammayi.jpg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>Achan & Ammayi</b></h2>
+                    <p>This is my Achan(Abilash) & Ammayi(Asha) </p>
+                    <p>Now I have two naught brothers Levin chettan and Derin chettan..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-container">
+                    <img src="{% static 'images/Maema.jpeg' %}" class="d-block w-100" alt="Trulli"
+                         width="400" height="400"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><b>Maema</b></h2>
+                    <p>This is my Maema(Milan)</p>
+                    <p>I am your fan Maema !!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</head>
+</html>
+
+
